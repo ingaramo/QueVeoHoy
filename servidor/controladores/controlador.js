@@ -1,4 +1,4 @@
-const connection = require('../lib/conexionbd');
+const connection = require('../lib/conexionbd.js');
 
 function connect(){
     connection.connect(function(error){

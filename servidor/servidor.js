@@ -24,10 +24,3 @@ app.get('/peliculas',controlador.getAllPeliculas);
 app.get('/generos',controlador.getAllGeneros);
 app.get('/peliculas/recomendacion', controlador.getRecomendacion);
 app.get('/peliculas/:id',controlador.getPelicula);
-
-function mok(req,res){
-  console.log(req.query)
-  console.log("asdasdasdasdasd")
-  res.status(408).send('ayahoogo')
-
-}
